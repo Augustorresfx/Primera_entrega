@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Remera Nike Festival Dye",
+    "tipo": "hombres",
+    "price": 5000,
+    "urlImg": "https://www.digitalsport.com.ar/files/products/611d6cae35375-534904-1200x1200.jpg",
+    "id": 1
+  },
+  {
+    "title": "Remera Nike NSW",
+    "tipo": "hombres",
+    "price": 3500,
+    "urlImg": "https://ferreira.vteximg.com.br/arquivos/ids/375763-1000-1000/ni_CW0428100.jpg?v=637538355569130000",
+    "id": 2
+  },
+  {
+    "title": "Remera Nike Sportswear",
+    "tipo": "mujeres",
+    "price": 4500,
+    "urlImg": "https://www.tripstore.com.ar/media/catalog/product/cache/4769e4d9f3516e60f2b4303f8e5014a8/B/V/BV5015-010_0.jpg",
+    "id": 3
+  },
+  {
+    "title": "Zapatillas Nike Air Max Sc",
+    "tipo": "hombres",
+    "price": "20000",
+    "urlImg": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw76bc5435/products/NI_CW4554-001/NI_CW4554-001-1.JPG",
+    "id": 4
+  },
+  {
+    "title": "Zapatillas Puma Jada Adiprene",
+    "tipo": "mujeres",
+    "price": "9999",
+    "urlImg": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw2bdccec8/products/PU_384305-03/PU_384305-03-1.JPG",
+    "id": 5
+  },
+  {
+    "title": "Zapatillas Adidas Grand Court Base",
+    "tipo": "mujeres",
+    "price": "10500",
+    "urlImg": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw0257be93/products/AD_EG4055/AD_EG4055-1.JPG",
+    "id": 6
+  }
+]

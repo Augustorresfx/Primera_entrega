@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "time": "1:14:36",
+      "products": []
+    },
+    {
+      "id": 2,
+      "time": "1:14:37",
+      "products": []
+    },
+    {
+      "id": 3,
+      "time": "1:14:37",
+      "products": [{
+      "title": "Las chicas del cable",
+      "tipo": "series",
+      "duration": "1:28",
+      "urlImg": "https://www.cinemascomics.com/wp-content/uploads/2020/02/las-chicas-del-cable-entrevista-temporada-5.jpg",
+      "id": 1
+    },
+    {
+      "title": "Drive to survive",
+      "tipo": "series",
+      "duration": "2:39",
+      "urlImg": "https://img.redbull.com/images/c_crop,w_3200,h_1600,x_0,y_452,f_auto,q_auto/c_scale,w_1200/redbullcom/2017/06/23/1478ebff-ab86-4a4a-ba39-855e30d227f7/daniel-ricciardo-en-el-gp-de-canad%C3%A1-2017.jpg",
+      "id": 2
+    },
+    {
+      "title": "El desempleado",
+      "tipo": "peliculas",
+      "duration": "2:30",
+      "urlImg": "https://pbs.twimg.com/media/EwZLYMPXAAAmM5H?format=jpg&name=medium",
+      "id": 3
+    }]
+    },
+    {
+      "id": 4,
+      "time": "1:14:38",
+      "products": []
+    }
+  ]

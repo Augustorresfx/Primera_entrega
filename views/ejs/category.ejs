@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('partials/head') %>
+    <title>Acapulco Store</title>
+</head>
+
+<body>
+    <%- include('partials/nav') %>
+    <main>
+        <h2 class="text-2xl ml-10"><%- producto.toUpperCase() %></h2>
+        <div class="grid grid-flow-row m-4 grid-cols-4 gap-10">
+            <% hombres.forEach(function(product) { %> 
+                <div class="shadow-xl rounded-tl-lg rounded-tr-lg">
+                    <a href="#">
+                        <img class="rounded-lg" src="<%= product.urlImg %>">
+                    </a>
+                    <div class="p-5">
+                    <p><%= product.title %></p>
+                    <p>$<%= product.price %></p>
+                    <div class="flex flex-row my-3">
+                        <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2"></div>
+                        <div class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2"></div>
+                    </div>
+                    <div class="flex flex-row my-3">
+                        <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2">S</div>
+                        <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2">M</div>
+                        <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2">L</div>
+                        <div class="border-2 border-gray-300 text-gray-400 rounded-md text-xs px-2 py-1 mr-2">XL</div>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                        <a href="#" class="bg-gradient-to-r from-green-500 to-blue-500 rounded-full text-gray-50 self-center py-2 px-4 flex flex-row hover:from-green-500 hover:to-green-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                            Agregar al carrito
+                        </a>
+                    </div>
+                </div>
+                </div>
+            <% }) %>
+    </main>
+</body>
+
+</html>
